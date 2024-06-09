@@ -1,0 +1,47 @@
+.container{
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.btnFav {
+    cursor: pointer;
+    padding: none;
+    background-color: #151219; 
+    
+    border: none;
+}
+.btnCoins{
+    cursor: pointer;
+    padding-right:1px ;
+    background-color: #151219;
+    color: #B5B3B9;
+    padding-right:20px;
+    border: none;
+    font-size:medium;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    /* Ширина скроллбару */
+}
+
+/* Стилізація трека скроллбару */
+::-webkit-scrollbar-track {
+    background: #151219;
+    /* Колір фону трека */
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track:active{
+background: #888;
+}
+/* Стилізація ручки скроллбару */
+::-webkit-scrollbar-thumb {
+    background: #0D0B0D;
+    /* Колір ручки */
+    border-radius: 10px;
+}
+
+/* Стилізація ручки при наведенні */
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+    /* Колір ручки при наведенні */
+}

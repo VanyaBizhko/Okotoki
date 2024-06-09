@@ -1,0 +1,29 @@
+ul{
+    padding: 0;
+
+   
+}
+.container{
+    margin-top: 10px;
+}
+.list{
+list-style: none;
+padding: 0;
+margin-bottom: 15px;
+}
+.btnFav {
+    cursor: pointer;
+    padding: none;
+    background-color: #151219;
+    border: none;
+}
+
+.btnCoins {
+    cursor: pointer;
+    padding-right: 1px;
+    background-color: #151219;
+    color: #B5B3B9;
+    padding-right: 20px;
+    border: none;
+    font-size: medium;
+}

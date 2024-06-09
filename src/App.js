@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import style from './App.module.css';
+import Controller from './components/Controller/Controller';
+import { ReactComponent as Search }  from './svg/search.svg';
 
 function App() {
+  const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownVisible(!isDropdownVisible);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={style.container}>
+      <button 
+        className={`${style.btn} ${isDropdownVisible ? style.active : ''}`} 
+        onClick={toggleDropdown}
+      >
+        <Search/> 
+        <span className={style.search}>SEARCH</span>
+      </button>
+      {isDropdownVisible && <Controller />}
     </div>
   );
 }

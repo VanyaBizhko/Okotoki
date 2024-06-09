@@ -1,0 +1,43 @@
+.dropdown {
+    position: absolute;
+    top: 60px;
+    left: 42%;
+    transform: translateX(-50%);
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    width: 300px;
+    color: #D3D1D3;
+    background-color: #151315;
+    border: 1px solid #3B343B;
+    border-radius: 12px;
+    overflow: hidden;
+    padding: 0;
+}
+.category{
+    border:none;
+    background-color: black;  
+    color: #D3D1D3;
+    padding: 10px 7px;
+    cursor: pointer;
+}
+.categoryAll{
+    border: none;
+        background-color: black;
+        color: #D3D1D3;
+        padding: 10px 15px;
+        cursor: pointer;
+        margin-left: 25px;
+}
+.btns{
+    background-color: black;
+}
+.favTxt{
+    margin-left: 5px;
+    font-size: medium;
+}
+.coinsTxt{
+font-size: medium;
+}

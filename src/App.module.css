@@ -1,0 +1,32 @@
+.container{
+     display: flex;
+     justify-content: center;
+     background-color: #131214;
+     padding: 20px;
+     height:40px
+
+
+}
+.search{
+    margin-left: 10px;
+    font-size: large;
+}
+.btn{
+    border-radius: 10px;
+    cursor: pointer;
+    
+    background-color: #131214;
+    color:#C5C4C6;
+    border:none;
+    padding:10px 10px;
+}
+.btn:hover {
+    background-color: #3A393A;
+    border: 2px solid #494849;
+    padding: 8px 10px;
+}
+.btn.active{
+    background-color: #3A393A;
+    border: 2px solid #494849;
+    padding: 8px 10px;
+}
